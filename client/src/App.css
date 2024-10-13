@@ -1,0 +1,68 @@
+/* App.css or appropriate CSS file */
+
+.btn-custom {
+  margin: 5px; /* Adds space around buttons */
+  padding: 10px 15px; /* Adds padding inside the buttons */
+  font-weight: bold; /* Makes the text bold */
+  border-radius: 5px; /* Rounds the corners of the buttons */
+}
+
+/* Styles for the Submit button */
+.btn-success {
+  background-color: #28a745; /* Green background */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Styles for Edit button */
+.btn-edit {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.btn-edit:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styles for Publish button */
+.btn-publish {
+  background-color: #ffc107; /* Yellow background */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.btn-publish:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Styles for Delete button */
+.btn-danger {
+  background-color: #dc3545; /* Red background */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.btn-danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+/* App.css or appropriate CSS file */
+
+/* Styles for the Edit link */
+.badge-warning {
+  background-color: #ffc107; /* Yellow background */
+  color: white; /* White text */
+  padding: 10px 15px; /* Adds padding */
+  border-radius: 5px; /* Rounds the corners */
+  text-decoration: none; /* Removes underline */
+  font-weight: bold; /* Makes the text bold */
+  transition: background-color 0.3s; /* Adds transition for hover effect */
+}
+
+.badge-warning:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
