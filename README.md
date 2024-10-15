@@ -7,8 +7,8 @@
         spring:
             datasource:
                 url: jdbc:mysql://localhost:3306/todoapp
-                username: root
-                password: mysql
+                username: # masukan username database
+                password: # masukan password database
                 driver-class-name: com.mysql.cj.jdbc.Driver  
 
             jpa:
