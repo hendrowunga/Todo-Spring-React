@@ -1,4 +1,5 @@
 package com.hendro.model;
+
 import jakarta.persistence.*;
 
 @Entity
@@ -18,6 +19,11 @@ public class Tutorial {
     @Column(name = "published")
     private boolean published;
 
+    // Relasi many-to-one dengan User
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "user_id", nullable = false)
+    private User user;
+
     public Tutorial() {
 
     }
@@ -26,6 +32,14 @@ public class Tutorial {
         this.title = title;
         this.description = description;
         this.published = published;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     public long getId() {
